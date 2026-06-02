@@ -1,0 +1,29 @@
+{
+  "_comment": "Claw Code – offline / Ollama configuration. Copy to ~/.claw.json or .claw/settings.json",
+
+  "model": "qwen2.5-coder:0.5b",
+
+  "models": {
+    "coding":  "qwen2.5-coder:0.5b",
+    "general": "gemma2:2b",
+    "fast":    "smollm:135m"
+  },
+
+  "env": {
+    "OLLAMA_BASE_URL": "http://localhost:11434/v1",
+    "OLLAMA_API_KEY":  "ollama"
+  },
+
+  "offline": {
+    "enabled":          true,
+    "rag_knowledge_dir": "./knowledge",
+    "rag_db_path":       "./chroma_db",
+    "tts_enabled":       true,
+    "tts_rate":          165,
+    "sandbox_image":     "python:3.12-slim",
+    "sandbox_network":   "none",
+    "sandbox_memory":    "256m"
+  },
+
+  "mcpServers": {}
+}
