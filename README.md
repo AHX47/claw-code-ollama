@@ -1,7 +1,8 @@
 # Claw Code – Offline / Ollama Mode
 
-> Run the full Claw Code agent **100 % locally** – no Anthropic key, no cloud,
+> Run the full Claw Code agent **100 % locally** – no api key, no cloud,
 > no internet required.
+<img src="claw-ollama.jpeg" alt="claw-ollama" width="400" height="200" />
 
 ---
 
