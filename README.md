@@ -3,7 +3,7 @@
 > Run the full Claw Code agent **100 % locally** – no api key, no cloud,
 > no internet required.
 <img src="claw-ollama.jpeg" alt="claw-ollama" width="400" height="200" />
-
+<img src="image_eadd9bb2.png" alt="claw-ollama-CODE" width="400" height="200" />
 ---
 
 ## What changed from upstream
